@@ -1,0 +1,50 @@
+.wrapper {
+	width: 100%;
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.wrapper.dark .input {
+	background-color: #1E1F25;
+	border-bottom: 1px solid #29292F;
+}
+
+.wrapper.light .input {
+	color: #1E1F25;
+	background-color: #fff;
+	border-bottom: 1px solid #29292F;
+}
+
+.wrapper.dark .button {
+	color: #fff;
+	background-color: #1E1F25;
+}
+
+.wrapper.light .button {
+	color: #1E1F25;
+	background-color: transparent;
+}
+
+.input {
+	flex: 1;
+	padding: 10px 0;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-weight: 100;
+	/* transition: all 0.3s; */
+}
+
+.button {
+	font-size: 1.8rem;
+	font-weight: 500;
+	outline: none;
+	cursor: pointer;
+	padding: 8px 12px;
+	border: none;
+	/* transition: all 0.3s; */
+}
+
+.button:hover {
+	opacity: 0.9;
+}

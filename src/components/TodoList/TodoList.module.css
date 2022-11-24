@@ -1,0 +1,106 @@
+.wrapper {
+	padding: 0 24px;
+	border-radius: 20px;
+	/* transition: all 0.3s; */
+}
+
+.wrapper.dark {
+	background-color: #1E1F25;
+}
+
+.wrapper.light {
+	border: 1px solid #EBEBEB;
+	box-shadow: 0px 4.67778px 4.67778px #FFFFFF;
+}
+
+.wrapper.light .filters {
+	color: #575767;
+}
+
+.wrapper.light .title {
+	color: #29292F;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 70px 0 40px 0;
+}
+
+.title {
+	color: #fff;
+	font-size: 2.8rem;
+	font-weight: 600;
+}
+
+
+.theme {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.icon {
+	color: #29292F;
+	font-size: 1.8rem;
+}
+
+/* // Thanh cuon */
+
+.scroll {
+	height: 400px;
+	overflow: overlay;
+	overflow-y: scroll;
+}
+
+
+.scroll::-webkit-scrollbar {
+	border-radius: 0;
+	width: 8px;
+	height: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	/* background-color: #3c3c46; */
+}
+
+.scroll::-webkit-scrollbar-track {
+	border-radius: 0;
+}
+
+
+.filters {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+
+.total {
+	cursor: pointer;
+}
+
+.filter {
+	margin: 0 6px;
+	cursor: pointer;
+}
+
+.clear {
+	cursor: pointer;
+}
+
+.filter.active,
+.clear.active {
+	color: #3c3c46;
+	font-weight: 600;
+}
